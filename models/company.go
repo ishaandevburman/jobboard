@@ -4,7 +4,7 @@ import "gorm.io/gorm"
 
 type Company struct {
     gorm.Model
-    Name        string `json:"name"`
+    Name         string `json:"name" gorm:"unique"`
     ContactEmail string `json:"contact_email"`
     ContactPerson string `json:"contact_person"`
     PhoneNumber  string `json:"phone_number"`
