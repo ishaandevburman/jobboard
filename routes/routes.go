@@ -2,7 +2,7 @@
 package routes
 
 import (
-	"jobboard/controllers"
+	"github.com/ishaandevburman/jobboard/controllers"
 
 	"github.com/gin-gonic/gin"
 )

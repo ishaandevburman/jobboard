@@ -1,4 +1,4 @@
-module jobboard
+module github.com/ishaandevburman/jobboard
 
 go 1.21.5
 

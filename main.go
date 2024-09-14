@@ -2,9 +2,9 @@
 package main
 
 import (
-	"jobboard/models"
-	"jobboard/routes"
-	"jobboard/utils"
+	"github.com/ishaandevburman/jobboard/models"
+	"github.com/ishaandevburman/jobboard/routes"
+	"github.com/ishaandevburman/jobboard/utils"
 
 	"github.com/gin-gonic/gin"
 )

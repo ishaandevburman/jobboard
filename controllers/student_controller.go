@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"jobboard/models"
-	"jobboard/utils"
+	"github.com/ishaandevburman/jobboard/models"
+	"github.com/ishaandevburman/jobboard/utils"
 
 	"github.com/gin-gonic/gin"
 )
