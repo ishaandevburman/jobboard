@@ -2,11 +2,11 @@
 package main
 
 import (
+	"github.com/gin-gonic/gin"
+
 	"github.com/ishaandevburman/jobboard/models"
 	"github.com/ishaandevburman/jobboard/routes"
 	"github.com/ishaandevburman/jobboard/utils"
-
-	"github.com/gin-gonic/gin"
 )
 
 func main() {

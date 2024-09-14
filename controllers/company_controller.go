@@ -1,12 +1,11 @@
 package controllers
 
 import (
-	"github.com/ishaandevburman/jobboard/models"
-	"github.com/ishaandevburman/jobboard/utils"
-
 	"net/http"
 
 	"github.com/gin-gonic/gin"
+	"github.com/ishaandevburman/jobboard/models"
+	"github.com/ishaandevburman/jobboard/utils"
 )
 
 func AddCompany(c *gin.Context) {
@@ -83,4 +82,3 @@ func ListCompanies(c *gin.Context) {
 	}
 	c.JSON(http.StatusOK, companies)
 }
-

@@ -3,10 +3,9 @@ package controllers
 import (
 	"net/http"
 
+	"github.com/gin-gonic/gin"
 	"github.com/ishaandevburman/jobboard/models"
 	"github.com/ishaandevburman/jobboard/utils"
-
-	"github.com/gin-gonic/gin"
 )
 
 func RegisterStudent(c *gin.Context) {
